@@ -1,0 +1,26 @@
+{
+  "name": "obfilter",
+  "version": "0.0.1",
+  "description": "object filtering",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewsalveson/obfilter.git"
+  },
+  "keywords": [
+    "filter"
+  ],
+  "author": "Andrew Salveson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewsalveson/obfilter/issues"
+  },
+  "homepage": "https://github.com/andrewsalveson/obfilter#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
