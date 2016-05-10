@@ -4,7 +4,7 @@
   "description": "object filtering",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
