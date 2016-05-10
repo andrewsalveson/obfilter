@@ -1,0 +1,20 @@
+{
+  "name": "obfilter",
+  "description": "object filtering",
+  "main": "index.js",
+  "authors": [
+    "Andrew Salveson"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "filter"
+  ],
+  "homepage": "https://github.com/andrewsalveson/obfilter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
