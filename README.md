@@ -11,6 +11,37 @@ A small library to compare objects using simple rules
 
 	var obfilter = require('obfilter');
 
+	var structureRule = {
+		structure: true
+	};
+
+	var matchSome = {
+		match:{
+			some:true
+		}
+	};
+
+	var matchAll = {
+		match:{
+			all:true
+		}
+	};
+
+	var test = {
+		contributors:["Andrew","Batman"]
+	};
+
+	var match = {
+		contributors:["Batman"]
+	};
+
+
+	obfilter.filterObject(test,match,matchSome); // returns true
+	obfilter.filterObject(test,match,matchAll); // returns false
+
+
+
+
 ## Tests
 
 	npm test
